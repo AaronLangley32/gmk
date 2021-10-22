@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Boards from '../components/Boards'
 import Footer from '../components/Footer'
+import Keycaps from '../components/Keycaps'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +22,7 @@ const Home = () => {
         <Navbar toggle={toggle}/>
         <HeroSection />
         <Boards />
+        <Keycaps />
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />

@@ -17,7 +17,7 @@ const Navbar = ({ toggle }) => {
                         <NavLinks to="Boards">Boards</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="keycaps">Keycaps</NavLinks>
+                        <NavLinks to="Keycaps">Keycaps</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="deskmats">Deskmats</NavLinks>
